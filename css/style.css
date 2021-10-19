@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 10% 2%;
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #262626;
+}
+
+main {
+    margin: 10% 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 935px;
+}
+
+.profile-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    border: 5px double rgb(196, 192, 192);
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 10px;
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+h3,
+span {
+    font-weight: bold;
+    color: #262626;
+}
+
+a,
+li {
+    margin-top: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.profile-data {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin-top: 15px;
+}
+
+.profile-data p {
+    margin-right: 10%;
+}
+
+.highlighted-stories {
+    margin: 10% 0;
+}
+
+.highlighted-stories ul {
+    display: flex;
+}
+
+.highlighted-stories li {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.highlighted-stories figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlighted-stories img,
+.add {
+    display: flex;
+    justify-content: center;
+    width: 77px;
+    height: 77px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    border: 5px double rgb(196, 192, 192);
+}
+
+.add img {
+    margin-top: 18%;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.profile-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(196, 192, 192);
+}
+
+.profile-posts nav {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 2% 0;
+}
+
+.profile-posts nav a {
+    width: 320px;
+    color: #262626;
+    font-weight: bold;
+}
+
+.profile-posts nav a img {
+    width: 17px;
+    height: 15px;
+}
+
+.profile-posts ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.profile-posts img {
+    width: 293px;
+    height: 293px;
+}
+
+.profile-posts li {
+    margin: 0 5px;
+}
+
+@media (min-width: 600px) {
+    html {
+        margin: 2% 0;
+    }
+    main {
+        margin: 0;
+    }
+    .profile-content {
+        flex-direction: row;
+    }
+    .highlighted-stories {
+        margin-left: 5%;
+    }
+    .profile-photo img {
+        margin-top: 50%;
+    }
+}
