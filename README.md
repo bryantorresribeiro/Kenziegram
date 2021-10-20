@@ -1,4 +1,4 @@
-# Visualização:
+# Visualização desktop:
 
-![Exemplo Box](img/kenziegramdesktop.png)
+![Exemplo Box](https://github.com/bryantorresribeiro/kenziegram/blob/main/img/kenziegramdesktop.png)
 
