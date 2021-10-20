@@ -129,11 +129,6 @@ li {
     font-weight: bold;
 }
 
-.profile-posts nav a img {
-    width: 17px;
-    height: 15px;
-}
-
 .profile-posts ul {
     display: flex;
     flex-flow: row wrap;
